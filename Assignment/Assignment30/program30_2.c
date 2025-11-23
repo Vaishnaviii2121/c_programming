@@ -14,8 +14,6 @@
 //
 ////////////////////////////////////////////////////////////////////////////////////
 
-#include <stdio.h>
-
 void Pattern(int iRow, int iCol)
 {
     for(int i = 1; i <= iRow; i++)
@@ -46,3 +44,4 @@ int main()
 
     return 0;
 }
+
