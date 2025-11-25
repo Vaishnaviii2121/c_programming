@@ -1,24 +1,18 @@
-////////////////////////////////////////////////////////////////
-//
-//  File Name   : Program31_1.c
-//  Description : Accept the number of rows and column from user
-//  Author      : Vaishnavi
-//  Date        : 24/11/2025
-//
-////////////////////////////////////////////////////////////////
-
 #include<stdio.h>
 
-////////////////////////////////////////////////////////////////
-// 
+///////////////////////////////////////////////////////////////////////////////////
+//
 //  Function Name : Pattern
-//  Input         : Number of rows and Column
-//  Output        : 
-//                   *                               
-//                   *    *             
-//                   *    *    *        
-//                   *    *    *    *    
-////////////////////////////////////////////////////////////////
+//  Description : Accepting number of rows and columns from user and display Pattern
+//  Input : iRow = 4    iCol = 4
+//  Output : *
+//           *  *
+//           *  *  *
+//           *  *  *  *
+//  Author : Vaishnavi
+//  Date : 25/11/2025
+//
+//////////////////////////////////////////////////////////////////////////////////
 
 void Pattern(int iRow,int iCol)
 {
@@ -41,22 +35,16 @@ void Pattern(int iRow,int iCol)
         printf("\n");
     }
 }
-
-/////////////////////////////////////////////////////////////
-// Entry point function
-/////////////////////////////////////////////////////////////
-
 int main()
 {
-    int iValue1=0,iValue2=0;
+    int iValue1 = 0, iValue2 = 0;
 
-    printf("Enter a number of Rows: ");
-    scanf("%d",&iValue1);
-
-    printf("Enter number of Columns: ");
-    scanf("%d",&iValue2);
+    printf("Enter number of rows and columns:");
+    scanf("%d %d",&iValue1,&iValue2);
 
     Pattern(iValue1,iValue2);
 
     return 0;
 }
+
+
