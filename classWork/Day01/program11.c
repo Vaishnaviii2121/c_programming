@@ -24,8 +24,8 @@
 //  Description :   It is used to perform addition         
 //  Input :         Float, Float 
 //  Output :        Float
-//  Author :        Piyush Manohar Khairnar
-//  Date :          09/10/2025
+//  Author :        Vaishnavi Garad
+//  Date :          10/10/2025
 //
 /////////////////////////////////////////////////////////////////
 
